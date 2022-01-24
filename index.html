@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="robots" content="noindex,nofollow"> 
+        <meta name="theme-color" content="#fff"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+        <link rel="shortcut icon" href="img/favicons/favicon-16x16.png"/>
+        <meta name="msapplication-TileColor" content="#FFEDD6">
+
+
+        <title>Mahjong Journey</title>
+        <meta property="og:url"           content="" />
+        <meta property="og:type"          content="website" />
+        <meta property="og:title"         content="Mahjong Journey" />
+        <meta property="og:description"   content="Mahjong Journey" />
+        <meta property="og:image"         content="" />
+        <meta property="og:image:width"   content="512"/>
+        <meta property="og:image:height"  content="512"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+        <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+        <link rel="stylesheet" rel="preload" href="css/style.css">
+        <![if IE]><script src="http://code.jquery.com/jquery-1.10.2.js"></script><![endif]>
+
+    </head>
+    <noscript>
+        On javascript
+    </noscript>
+
+    <body>
+
+        <main>
+
+            <div class="section-main pb-5" id="parallax">
+                <div class="bg lazy" data-src="img/main-bg.png" style="background-image: url('img/main-bg.png');"></div>
+                <div class="container-fluid h-100">
+                    <div class="row position-relative h-100">
+                        <div class="col position-static h-100">
+                            <div class="girl decor wow slideInLeft" data-wow-duration="1s">
+                                <img data-src="img/main-girl.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="lazy" alt="">
+                            </div>
+                            <div class="book decor wow slideInRight" data-wow-duration="1s">
+                                <img data-src="img/main-book.svg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="lazy" alt="">
+                            </div>
+                            <div class="cont h-100 pt-5 pb-5 d-flex flex-column justify-content-between align-items-center position-relative">
+                                <div class="col col-6 text-center">
+                                    <a href="" class="logo d-inline-block text-center bounceIn wow" data-wow-duration="1s">
+                                        <img data-src="img/logo.svg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="logo" class="lazy">
+                                    </a>
+                                </div>
+                                <div class="block d-flex flex-column">
+                                    <a href="" class="btn my-4 btn-primary">Play Now</a> 
+                                    <div class="desc">
+                                        <h1 class="text-center text-light">Match Tiles & Relax</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section section-media pb-5 wood overflow-hidden mt-n5 rounded-custom lazy" id="second" data-src="img/wood.png" style="background-image: url('img/wood.png')">
+                <div class="container">
+                    <div class="cont">
+                        <div class="row">
+                            <div class="col mb-5 title">
+                                <h2 class="text-center">Enjoy a new take on Mahjong Solitaire as you help a young girl and her cat traverse the globe in search of her lost parents.</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-10 col-lg-9 mx-auto">
+                                <div class="block-media position-relative" style="background-image: url('img/video-bg.png');">
+                                    <div class="media m-auto d-flex justify-content-center bounceIn wow" data-wow-duration="1s">
+                                        <img data-src="img/video.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="iframe" class="iframe lazy">
+                                    </div>
+                                    <div class="decor decor-1 position-absolute wow slideInLeft" data-wow-duration="1s" id="baloon-1">
+                                        <img data-src="img/baloon-1.svg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="decor" data-depth="0.5" class="lazy">
+                                    </div>
+                                    <div class="decor decor-2 position-absolute wow slideInRight" data-wow-duration="0.4s" id="baloon-2">
+                                        <img data-src="img/baloon-2.svg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="decor" data-depth="0.3" class="lazy">
+                                    </div>
+                                    <div class="decor decor-3 position-absolute wow slideInRight" data-wow-duration="0.7s" id="baloon-3">
+                                        <img data-src="img/baloon-3.svg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="decor" data-depth="0.2" class="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section section-journey pb-5 mt-n5 bg rounded-custom lazy" data-src="img/mountains.png" style="background-image: url('img/mountains.png')">
+                <div class="container">
+                    <div class="row cont d-flex align-items-start position-relative">
+                        <div class="decor decor-1 position-absolute bounceIn wow" data-wow-duration="1s" id="cloud-1">
+                            <img class="lazy" data-src="img/cloud-1.svg" src="img/cloud-1.svg" alt="decor" data-depth="0.5">
+                        </div>
+                        <div class="col col-md-10 col-xl-7 col-12 m-auto">
+                            <div class="img mb-4 bounceIn wow" data-wow-duration="0.6s">
+                                <img class="lazy" data-src="img/prev-game.png" src="img/prev-game.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col col-xl-5 col-12">
+                            <div class="decor decor-2 position-absolute bounceIn wow" data-wow-duration="0.6s" id="cloud-2">
+                                <img data-src="img/cloud-2.svg" src="img/cloud-2.svg" alt="decor" data-depth="0.3" class="lazy">
+                            </div>
+                            <div class="logo-company mw-100 ml-auto mr-auto mb-1 bounceIn wow" data-wow-duration="0.6s">
+                                <img data-src="img/logo-game.png" src="img/logo-game.png" alt="" class="lazy">
+                            </div>
+                            <div class="title mb-3">
+                                <h4 class="text-center">Mahjong Journey</h4>
+                                <p class="text-center m-auto">Experience a new take on Mahjong Solitaire</p>
+                            </div>
+                            <a href="" class="btn btn-primary m-auto">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-comments mt-n5 pb-5 wood rounded-custom">
+                <div class="container position-relative">
+                    <div class="decor position-absolute rotateIn wow" id="hourglass" data-wow-duration="0.6s">
+                        <img data-src="img/hourglass.svg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="decor" data-depth="0.5" class="lazy">
+                    </div>
+                    <div class="cont">
+                        <div class="row">
+                            <div class="col col-12">
+                                <div class="carousel slide" id="carousel" data-ride="carousel">
+                                    <div class="carousel-inner"  role="listbox">
+                                        <div class="carousel-item comment-item active">
+                                            <div class="img float-left">
+                                                <img data-src="img/author.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="author" class="lazy">
+                                            </div>
+                                            <div class="d-inline-flex rates mx-n2 mb-2">
+                                                <img src="img/star.svg" alt="star">
+                                                <img src="img/star.svg" alt="star">
+                                                <img src="img/star.svg" alt="star">
+                                                <img src="img/star.svg" alt="star">
+                                                <img src="img/star.svg" alt="star">
+                                            </div>
+                                            <span class="name d-inline-block mb-2">Ad****a</span>
+                                            <div class="desc d-inline-block">
+                                                <p>"I really like this game.. the graphics and visual arts are amazing!”</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item comment-item">
+                                            <div class="img float-left">
+                                                <img data-src="img/author.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="author" class="lazy">
+                                            </div>
+                                            <div class="d-inline-flex rates mx-n2 mb-2">
+                                                <img src="img/star.svg" alt="star">
+                                                <img src="img/star.svg" alt="star">
+                                                <img src="img/star.svg" alt="star">
+                                                <img src="img/star.svg" alt="star">
+                                                <img src="img/star.svg" alt="star">
+                                            </div>
+                                            <span class="name d-inline-block mb-2">Ad****a</span>
+                                            <div class="desc d-inline-block">
+                                                <p>"1I really like this game.. the graphics and visual arts are amazing!”</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="section-features pb-5 mt-n5 wood rounded-custom lazy" data-src="img/wood.png" style="background-image: url('img/wood.png')">
+                <div class="container position-relative">
+                    <div class="cont pt-5 pb-5">
+                        <div class="row">
+                            <div class="col title mb-5">
+                                <h3 class="text-center text-uppercase">Game Features</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-12 col-xl-7">
+                                <ul class="list-features mb-3">
+                                    <li class="d-flex align-items-center mb-3">
+                                        <div class="img mr-4 bounceInLeft wow" data-wow-duration="0.6s" data-wow-delay="0.3s">
+                                            <img data-src="img/f1.svg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="icon" class="lazy">
+                                        </div>
+                                        <p>Play this new take on Mahjong Solitare and help a young girl find her lost parents.</p>
+                                    </li>
+                                    <li class="d-flex align-items-center mb-3">
+                                        <div class="img mr-4 bounceInLeft wow" data-wow-duration="0.6s" data-wow-delay="0.4s">
+                                            <img data-src="img/f2.svg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="icon" class="lazy">
+                                        </div>
+                                        <p>Master thousands of immersive levels by matching over 1800 types of tiles in 43 different tilesets.</p>
+                                    </li>
+                                    <li class="d-flex align-items-center mb-3">
+                                        <div class="img mr-4 bounceInLeft wow" data-wow-duration="0.6s" data-wow-delay="0.5s">
+                                            <img data-src="img/f3.svg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="icon" class="lazy">
+                                        </div>
+                                        <p>Use the four groundbreaking powerups to earn collectibles and display them as you restore the family home.</p>
+                                    </li>
+                                    <li class="d-flex align-items-center mb-3">
+                                        <div class="img mr-4 bounceInLeft wow" data-wow-duration="0.6s" data-wow-delay="0.6s">
+                                            <img data-src="img/f4.svg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="icon" class="lazy">
+                                        </div>
+                                        <p>Enjoy gorgeous graphics and rich sounds as you travel around the world.</p>
+                                    </li>
+                                    <li class="d-flex align-items-center mb-3">
+                                        <div class="img mr-4 bounceInLeft wow" data-wow-duration="0.6s" data-wow-delay="0.7s">
+                                            <img data-src="img/f5.svg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="icon" class="lazy">
+                                        </div>
+                                        <p>Enjoy regular free updates with new levels, tilesets and more.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col col-12 col-xl-5">
+                                <div class="img text-center mt-n3 bounceIn wow" data-wow-duration="0.6s">
+                                    <img data-src="img/features-cat.svg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="cat" class="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-contacts bg mt-n5 rounded-custom lazy" data-src="img/contact-bg.png" style="background-image: url('img/contact-bg.png')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-12">
+                            <div class="cont">
+                                <div class="title mb-3">
+                                    <h3 class="text-light mb-4">Stay with us</h3>
+                                    <p class="text-light">Mahjong Journey is constantly evolving. Become part of our community and follow us on:</p>
+                                </div>
+                            </div>
+                            <div class="share flex-wrap mx-n4 pd-5 mb-5 d-flex">
+                                <a href="" class="mx-4" rel="nofollow">
+                                    <img data-src="img/facebook.svg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="icon" class="lazy">
+                                </a>
+                                <a href="" class="mx-4" rel="nofollow">
+                                    <img data-src="img/twit.svg" src="img/twit.svg" alt="icon" class="lazy">
+                                </a>
+                                <a href="" class="mx-4" rel="nofollow">
+                                    <img data-src="img/plus.svg" src="img/plus.svg" alt="icon" class="lazy">
+                                </a>
+                                <a href="" class="mx-4" rel="nofollow">
+                                    <img data-src="img/inst.svg" src="img/inst.svg" alt="icon" class="lazy">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-12 pt-5 d-flex flex-column align-items-center">
+                            <div class="copyright d-flex mb-3 mx-n2 flex-wrap justify-content-center">
+                                <div class="devby text-light mx-2">G5 ENTERTAINMENT ®</div>
+                                <p class="text-light mx-2">©2021 G5 Entertainment AB</p>
+                            </div>
+                            <div class="menu d-flex flex-wrap justify-content-center">
+                                <a href="" class="text-light mx-3">Terms of Service</a>
+                                <a href="" class="text-light mx-3">Privacy Policy</a>
+                                <a href="" class="text-light mx-3">G5 Store Terms of Service</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+
+        <!--[if !IE]>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!--<![endif]-->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js" integrity="sha512-YYiD5ZhmJ0GCdJvx6Xe6HzHqHvMpJEPomXwPbsgcpMFPW+mQEeVBU6l9n+2Y+naq+CLbujk91vHyN18q6/RSYw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="js/Lazyload.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+
+</html>
